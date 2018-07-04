@@ -1,0 +1,56 @@
+# Build log files which may be found in the source tree
+*.log
+*.wrn
+*.err
+*.binlog
+*.dll
+*.cache
+
+# Toolset projects for editing only
+*.suo
+*.ssms_suo
+
+# We don't want to check in .csproj.user files
+*.*proj.user
+
+# Resource editor turd file
+*.aps
+
+# TLOG files which don't always get cleaned up by msbuild
+msbuild.read.*.tlog
+
+# Solutions folder at the root
+/Solutions/
+
+# SlickEdit files
+*.vpj
+*.vpw
+*.vpwhist
+*.vtg
+
+*.sln
+*.zip
+
+# Sass cache files
+.sass-cache/
+
+# L2 can produce this folder in certain situations, ignore it.
+iocapture*.json
+
+# Ignore delete files
+**/deleted/*
+
+# obj
+**/obj/*
+
+# Ignore Visual Studio cache folders at any location in the source tree
+.vs/
+
+# Ignore VS Code config files only from the root
+/.vscode/
+
+# Ignore user runsettings files
+*.runsettings.local
+
+# Ignore git merge conflict files
+*.orig
